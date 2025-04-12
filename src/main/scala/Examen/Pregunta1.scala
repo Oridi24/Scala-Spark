@@ -1,7 +1,7 @@
 package Examen
 
-import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.types._
+import org.apache.spark.sql.{DataFrame, SparkSession}
 
 /**Ejercicio 1: Crear un DataFrame y realizar operaciones básicas
  Pregunta: Crea un DataFrame a partir de una secuencia de tuplas que contenga información sobre
@@ -42,6 +42,7 @@ object Pregunta1 {
       .orderBy($"calificacion".desc)
 
     println("Nombres ordenados por calificación descendente:")
-    nombresOrdenados.show()
+    nombresOrdenados
+
   }
 }

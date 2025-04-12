@@ -48,7 +48,7 @@ object Pregunta3 {
       .agg(avg("calificacion").alias("promedio-calificacion"))
 
 
-    promedioDF.show()
+    promedioDF
 
   }
 }

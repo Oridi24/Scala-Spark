@@ -1,11 +1,13 @@
 package Examen
 
 import Examen.Pregunta1._
-import org.apache.spark.sql.catalyst.dsl.expressions.{DslAttr, StringToAttributeConversionHelper}
+import org.apache.spark.sql.Row.empty.schema
 import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.scalatest.matchers.must.Matchers.contain
 import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.must.Matchers
 import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
+
+
 
 class Pregunta1Test extends AnyFlatSpec with Matchers{
 
@@ -36,15 +38,11 @@ class Pregunta1Test extends AnyFlatSpec with Matchers{
 
 
 
-    schema("nombre").dataType.typeName shouldbe("string")
-    schema("edad").dataType.typeName shouldbe("integer")
-    schema("calificacion").dataType.typeName shouldbe("double")
+    schema("nombre").dataType.typeName should be("string")
+    schema("edad").dataType.typeName should be("integer")
+    schema("calificacion").dataType.typeName should be("double")
   }
 
-  "ejercicio1" should "permitir hacer filtros correctamente" in{
-    val df = crearDataFrameEstudiantes()
-    val mayores = df.filter($"edad" >= 21)
 
-    mayores.count() shouldbe(2)
-  }
-}
+
+

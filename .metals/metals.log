@@ -1,0 +1,102 @@
+2025.04.11 17:09:42 INFO  Started: Metals version 1.5.2 in folders 'C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC' for client Visual Studio Code 1.98.2.
+2025.04.11 17:09:43 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+abr 11, 2025 5:09:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+abr 11, 2025 5:09:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+2025.04.11 17:09:48 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:09:52 INFO  running 'C:\Users\oridi\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.14%252B7\OpenJDK17U-jdk_x64_windows_hotspot_17.0.14_7.zip\jdk-17.0.14+7\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\oridi\AppData\Local\Temp\metals8739316083097349322\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.04.11 17:09:54 INFO  sbt thinks that server is already booting because of this exception:
+2025.04.11 17:09:54 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-6118367315267378469_lock, error 5
+2025.04.11 17:09:54 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2025.04.11 17:09:54 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2025.04.11 17:09:54 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:153)
+2025.04.11 17:09:54 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:79)
+2025.04.11 17:09:54 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:79)
+2025.04.11 17:09:54 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:87)
+2025.04.11 17:09:54 ERROR 	at sbt.xMain$.run(Main.scala:124)
+2025.04.11 17:09:54 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2025.04.11 17:09:54 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2025.04.11 17:09:54 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2025.04.11 17:09:54 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+2025.04.11 17:09:54 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2025.04.11 17:09:54 ERROR 	at sbt.xMain.run(Main.scala:48)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2025.04.11 17:09:54 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2025.04.11 17:09:54 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-6118367315267378469_lock, error 5
+2025.04.11 17:09:54 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2025.04.11 17:09:54 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2025.04.11 17:09:54 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2025.04.11 17:09:54 ERROR 	... 23 more
+2025.04.11 17:09:54 INFO  time: ran 'sbt bloopInstall' in 2.26s
+2025.04.11 17:09:54 ERROR sbt command failed: C:\Users\oridi\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.14%252B7\OpenJDK17U-jdk_x64_windows_hotspot_17.0.14_7.zip\jdk-17.0.14+7\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\oridi\AppData\Local\Temp\metals8739316083097349322\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.04.11 17:09:55 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:09:55 WARN  no build target for: C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala
+2025.04.11 17:09:56 INFO  time: code lens generation in 1.19s
+2025.04.11 17:10:04 WARN  no build target for: C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala
+2025.04.11 17:10:04 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:10:04 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:10:04 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:10:07 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:10:12 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1490)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:905)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.11 17:10:12 WARN  no build target for: C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala
+2025.04.11 17:10:12 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1457)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1101)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.04.11 17:10:12 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:10:18 INFO  no build target found for C:\Users\oridi\Desktop\Programacion\Scala\PracticaKC\src\main\scala\Examen\Pregunta1.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.04.11 17:10:20 INFO  Shutting down server
+2025.04.11 17:10:20 INFO  shutting down Metals
+2025.04.11 17:10:20 INFO  Exiting server

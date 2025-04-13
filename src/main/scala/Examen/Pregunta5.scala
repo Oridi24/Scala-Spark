@@ -11,6 +11,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
  */
 
 object Pregunta5 {
+
   def ejercicio5(ventas: DataFrame)(spark:SparkSession): DataFrame = {
        ventas
          .withColumn("ingreso_total", col("cantidad") * col("precio_unitario"))
